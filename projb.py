@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 import pickle as p
 
-p_out  = open("C:/Users/geeta/model_CNB.pkl","rb")
+p_out  = open("model_CNB.pkl","rb")
 model1 = p.load(p_out)
 
 def user_input_features():
